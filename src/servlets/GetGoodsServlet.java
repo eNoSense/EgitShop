@@ -41,7 +41,7 @@ public class GetGoodsServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		//设置输入输出编码格式
-		request.setCharacterEncoding("uft-8");
+		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=utf-8");
 		//输入处理
 		String pageNo = request.getParameter("pageNo");

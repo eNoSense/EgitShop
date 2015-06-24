@@ -19,7 +19,7 @@ public class DBBean {
 		if (con == null) {
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				String url = "jdbc:mysql//127.0.0.1/shopping";
+				String url = "jdbc:mysql://127.0.0.1/shopping";
 				String user = "root";
 				String password = "";
 

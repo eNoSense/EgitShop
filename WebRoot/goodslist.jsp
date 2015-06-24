@@ -39,7 +39,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     			<td>${goods.goodsId}</td>
     			<td>${goods.goodsName}</td>
     			<td>${goods.price }</td>
-    			<td><a href = "addToCart?goodsId=${ goods.goodId}">将商品添加到购物车中</a></td>
+    			<td><a href = "addToCart?goodsId=${ goods.goodsId}">将商品添加到购物车中</a></td>
     		</tr>	
     	</c:forEach>
     	</tbody>

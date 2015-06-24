@@ -1,21 +1,22 @@
 package bean.vo;
 
 public class GoodsVo {
-	private String GoodsId;
-	private String GoodsName;
+	private String goodsId;
+	private String goodsName;
 	private Float price;
 	
+	
 	public String getGoodsId() {
-		return GoodsId;
+		return goodsId;
 	}
 	public void setGoodsId(String goodsId) {
-		GoodsId = goodsId;
+		this.goodsId = goodsId;
 	}
 	public String getGoodsName() {
-		return GoodsName;
+		return goodsName;
 	}
 	public void setGoodsName(String goodsName) {
-		GoodsName = goodsName;
+		this.goodsName = goodsName;
 	}
 	public Float getPrice() {
 		return price;
@@ -23,6 +24,9 @@ public class GoodsVo {
 	public void setPrice(Float price) {
 		this.price = price;
 	}
+	
+	
+	
 	
 	
 

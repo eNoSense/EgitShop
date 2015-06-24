@@ -55,7 +55,7 @@ public class GetGoodsServlet extends HttpServlet {
 		
 		request.setAttribute("goodsList",goodsList);
 		//¥¶¿Ì ‰≥ˆ
-		RequestDispatcher rd = request.getRequestDispatcher("goodlist.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("goodslist.jsp");
 		rd.forward(request, response);
 		
 		

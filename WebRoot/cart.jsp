@@ -41,9 +41,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	    			<tr>
 	    			<form name = "cartManager"  method = "post">
 	    			<input type = "hidden" name = "goodsId" value = "${item.goodsVo.goodsId }" />
-	    				<td>${item.goodsVo.goodsId }</td>
-	    				<td>${item.goodsVo.Name}</td>
-	    				<td>${item.goodsVo.price }</td>
+	    				<td>${item.goods.goodsId }</td>
+	    				<td>${item.goods.Name}</td>
+	    				<td>${item.goods.price }</td>
 	    				<td><input type = "text" value = "${item.count }"/> </td>
 	    				<td>
 	    					<input type = "submit" name = "operate" value = "修改"/>
